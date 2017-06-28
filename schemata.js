@@ -10,6 +10,7 @@ var boltSecretSchema = new Schema(defs.boltSecret);
 var collectionSchema = new Schema(defs.collection);
 var extensionSchema = new Schema(defs.extension);
 var hookSchema = new Schema(defs.hook);
+var permissionSchema = new Schema(defs.permission);
 var roleSchema = new Schema(defs.role);
 var routerSchema = new Schema(defs.router);
 
@@ -34,6 +35,7 @@ module.exports = {
 	collection : collectionSchema,
 	extension : extensionSchema,
 	hook : hookSchema,
+	permission : permissionSchema,
 	role : roleSchema,
 	router : routerSchema,
 	user : userSchema,
